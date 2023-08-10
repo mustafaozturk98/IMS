@@ -1,0 +1,381 @@
+body#loginBody{
+    background: url('../Images/login2.jpg') no-repeat center center fixed;
+    background-size: cover;
+    background-blend-mode:soft-light;
+}
+body#registerBody{
+    background: url('../Images/banner2.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100%;
+    width: 100%;
+    margin: 0 auto;
+}
+div.loginHeader{
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    
+}
+div.loginHeader h1{
+    font-size:65px;
+    font-weight: bold;
+    color: rgb(0, 115, 209);
+    margin: 0px;
+    padding: 5px;
+}
+div.loginHeader p{
+    font-size:50px;
+    border-bottom: 5px white ;
+    color:white;
+    margin: 5px;
+}
+div.loginHeader p:after{
+    content: '';
+    display: block;
+    height: 5px;
+    background: rgb(0, 115, 209);
+    width: auto;
+    margin: 0 auto;
+
+}
+div.LoginBody form{
+    margin: 0 auto;
+    width: 500px;
+    background: rgba(0,0, 0, .5);
+    padding: 50px;
+    border: 10px;
+}
+
+
+div.loginInputsContainer{
+    margin-top: 20px;
+}
+div.loginInputsContainer label{
+    display: block;
+    text-transform: uppercase;
+    font-size: 20px ;
+    font-weight: bold;
+    color :white;
+}
+div.loginInputsContainer input{
+    height: 30px;
+    width: 40%;
+    border: 2px solid rgb(0, 115, 209) ;
+    text-align: left;
+    padding: 5px;
+    text-align: left;
+    
+}
+div.loginButtonContainer{
+margin-top: 30px;
+text-align: left;
+font-size: bold;
+font-style: italic;
+}
+div.loginButtonContainer button {
+    font-size:20px;
+    padding: 10px 40px;
+    background:white;
+    border: none;
+    color: black;
+    
+}
+div.signup p{
+   color: white;
+   
+}
+div.signup a{
+    color: rgb(0, 115, 209);
+    
+}
+div.header{
+    width: 100%;
+    padding:18px 1px ;
+    text-align: left;
+    background-color:rgb(0, 115, 209) ;
+    
+}
+div.header a{
+    font-size: 18px;
+    color: white;
+    border: 2px transparent;
+    border-style: dashed;
+    border-radius: 15%;
+    padding: 5px 10px;
+    
+    text-decoration:  none;
+    
+    }
+div.banner{
+    background: url('../Images/banner4.jpg')no-repeat center center fixed;
+    background-size: cover;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    margin: 0 auto;
+    
+}
+div.homepageContainer{
+    width: 100%;
+    height: 50vh ;
+    max-width: 900px;
+    margin: 0 auto;
+    
+}
+div.bannerHeader h1{
+    font-size: 90px;
+    color:rgb(0, 115, 209);
+    line-height: 100%;
+    margin-top: 0vh;
+}
+div.bannerHeader p{
+    font-size: 40px;
+    line-height: 100%;
+    color: rgb(0, 115, 209);
+    text-transform: uppercase;
+    padding-top: -20px;
+}
+p.bannerTagline{
+    margin-top: 20px;
+    font-size: 20px;
+    color:white;
+}
+div.homepageMainFeature{
+    text-align: center;
+}
+div.homepageMainFeature h1{
+margin-bottom: 5px;
+}
+div.homepageMainFeature p.description{
+    font-size: 18px ;
+    margin-top: 0px;
+}
+div.homepageFeature{
+    display: flex;
+    flex-direction: row;
+    padding: 10px 20px ;
+}
+div.homepageFeature {
+    margin:auto;
+    display: inline-block;
+    text-align: center;
+}
+div.footer.socialIconContainer{
+color: rgb(0, 115, 209);
+margin-left: 20px;
+height: 50px;
+width: 50px;
+display: inline-block;
+
+}
+div.socialIconContainer a{
+    font-size: 23px;
+    height: 50px;
+    width: 50px;
+    display: inline-block;
+    margin-left: 20px;
+    color: black;
+    
+    }
+    div.socialIconContainer a:hover{
+    color: rgb(0, 115, 209);
+        transition: 0.3s all;
+        }
+    div.socials{
+        height: 0vh;
+        text-align: center;
+        padding: 60px 0 30px 0px;
+    }
+    
+
+div.Footer{
+    height: 30vh;
+    color: rgb(0, 115, 209);
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+    }
+    div.Footer a{
+        color: black;
+        margin-left: 30px;
+        }
+
+/* dashboard */
+
+
+#dashboardMainContainer{
+    height:100vh;
+    display: flex;
+    flex-direction: row;
+}
+
+div.dashboard_sidebar{
+    width: 20%;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.726)
+}
+div.dashboard_content_container{
+    width: 80%;
+
+}
+h3.dashboard_logo{
+
+    color: rgb(0, 115, 209);
+    font-size: 60px;
+    text-align: center;
+}
+div.dashboard_sidebar_user{
+    text-align: center;
+    position: relative;
+    padding-bottom: 20px;
+    border-bottom: 2px solid rgb(0, 115, 209);
+}
+div.dashboard_sidebar_user img{
+    width: 60px;
+    display: inline-block;
+    border-radius: 50%;
+    border: 2px solid rgb(0, 115, 209);
+    margin-right: 5px;
+}
+    div.dashboard_sidebar_user span{
+        top: 20%;
+        font-size: 20px;
+        text-transform: uppercase;
+        color: white;
+        display: inline-block;
+    }
+    ul.dashboard_menu_list{
+        padding: 10px;
+        margin-top: 0px;
+    }
+    ul.dashboard_menu_list li{
+        padding:15px 15px;
+        font-size: 15px;
+        text-transform: uppercase;
+    }
+    ul.dashboard_menu_list li a{
+        height: auto;
+        text-decoration: none;
+        color: white;
+        display: block;
+        font-size: 18px;
+    } 
+    ul.dashboard_menu_list li a i{
+      margin-right: 10px;
+    } 
+    ul.dashboard_menu_list li:hover{
+        background: rgb(0, 115, 209);
+        color:white;
+        transition: 0.3s all;
+    }
+    div.dashboard_topNav  {
+        background: white;
+        padding: 20px ;
+        border-bottom: 4px solid rgb(0, 115, 209);
+    }
+    div.dashboard_topNav a{
+        color: rgb(0, 115, 209);
+        font-size: 18px;
+        text-decoration: none;
+        
+        
+     }
+     a#LogoutBtn{
+            float: right;
+        }
+        div.dashboard_content{
+            height: 100%;
+                padding: 10px ;
+                margin-top: 10px;
+              
+        }
+        div.dashboard_content_main{
+         max-height: 900px;
+            height: 100%;
+            height: 80%;
+
+     }   div.form-row{
+         padding: 10px;
+         margin: 20px;
+         text-align: center;
+        border-color: rgb(0, 115, 209);
+     }
+     div.form-group{
+         padding: 10px;
+         margin: 20px;
+
+        
+     }
+     div.form-group label{
+        font-weight: bold;
+        font-size: 20px ;
+        color :rgb(0, 115, 209);
+     }
+     input#itemDetailsItemNumber.form-control{
+         margin-left: 5px;
+         font-size: 20px;
+         border: 2px solid rgb(0, 115, 209);
+     }
+     input#itemDetailsItemName.form-control{
+         margin-left: 10px;
+         font-size: 20px;
+        border: 2px solid rgb(0, 115, 209);
+    }
+    input#itemDetailsQuantity.form-control{
+         
+        border: 2px solid rgb(0, 115, 209);
+    }
+    input#itemDetailsDiscount.form-control{
+         
+        border: 2px solid rgb(0, 115, 209);
+    }
+    input#itemDetailsUnitPrice.form-control{
+         
+        border: 2px solid rgb(0, 115, 209);
+    }
+    input#itemDetailsTotalStock.form-control{
+         margin-top: 20px;
+        border: 2px solid rgb(0, 115, 209);
+    }
+    
+    
+     textarea#itemDetailsDescription{
+         
+         margin-top: 0px;
+         margin: 0px;
+        width: 617px;
+        height: 134px;
+        border: 2px solid rgb(0, 115, 209);
+
+     }
+     div.addItemButtonContainer {
+         
+         background-color: white;
+        
+     }
+     div.addItemButtonContainer button{
+         font-style: italic;
+         font-size: 20px;
+         border: 2px solid rgb(0, 115, 209);
+         text-align: center;
+         background-color:white;
+         color: rgb(0, 115, 209);
+     }
+     
+    
+     div#errorMessage{
+         background: white;
+         text-align: center;
+         color: red;
+         font-size: 20px;
+         padding: 11px;
+     }
+     
+     
+
+    
+    
+    
+
